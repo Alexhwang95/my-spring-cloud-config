@@ -1,6 +1,13 @@
+# spring:
+#   datasource:
+#     driver-class-name: org.h2.Driver
+#     url: jdbc:h2:mem:testdb
+#     username: sa
+#     password: '{cipher}AQBcVaLivpsLj77o2TRGetwJFM2aEdn0tnab2BmL4bVS3Y9Js5kasT29iNkDQbDYi2gpfWtgA/fRfw0bt+MOvXUP8AUz7wAIMdZGxl06fb/3PfnoBzo0W0nRFhgIRPKf5T7nqBrcCM61OET7EUZscSSXQkTweFUzD05GJ89UKEvNGX69EcQHu0UEIdo18GtJthpjOPv+NcCCwM0s9DpX0Qv5FPTDTrP21uX66WFCGVf1W5ApWPoI+F4EfWgMuuyi0zpd4nk3G8COFRPkXPoE5/9BHv/HsDdAtDlQ9VVBlXr0voMUH0RysJfqENdwYfmXnvaAe5f9Do5UMPTaAGX0mIV0TzzLXhHQ77McEbHu+rezXClwAA0KfDaaaIM7VFqYK2E='
+
 spring:
   datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:testdb
-    username: sa
-    password: '{cipher}AQBcVaLivpsLj77o2TRGetwJFM2aEdn0tnab2BmL4bVS3Y9Js5kasT29iNkDQbDYi2gpfWtgA/fRfw0bt+MOvXUP8AUz7wAIMdZGxl06fb/3PfnoBzo0W0nRFhgIRPKf5T7nqBrcCM61OET7EUZscSSXQkTweFUzD05GJ89UKEvNGX69EcQHu0UEIdo18GtJthpjOPv+NcCCwM0s9DpX0Qv5FPTDTrP21uX66WFCGVf1W5ApWPoI+F4EfWgMuuyi0zpd4nk3G8COFRPkXPoE5/9BHv/HsDdAtDlQ9VVBlXr0voMUH0RysJfqENdwYfmXnvaAe5f9Do5UMPTaAGX0mIV0TzzLXhHQ77McEbHu+rezXClwAA0KfDaaaIM7VFqYK2E='
+    url: jdbc:mariadb://localhost:13306/bookdb
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: test1234
