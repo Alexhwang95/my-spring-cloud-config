@@ -10,4 +10,10 @@ spring:
     url: jdbc:mariadb://localhost:13306/bookdb
     driver-class-name: org.mariadb.jdbc.Driver
     username: root
-    password: test1234
+    password: test1357
+
+
+order_service:
+  url: http://ORDER-SERVICE/%s/orders
+  exception:
+    orders-is-empty: There is no items
